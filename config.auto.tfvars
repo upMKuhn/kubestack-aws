@@ -18,7 +18,7 @@ clusters = {
       cluster_desired_capacity = "1"
       cluster_min_size         = "1"
       cluster_max_size         = "3"
-
+      disable_default_ingress  = true
       # Comma seperated list of zone names to deploy worker nodes in
       # EKS requires a min. of 2 zones
       # Must match region set in provider
